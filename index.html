@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Famille — installer l'application</title>
+<style>
+  :root { color-scheme: dark; }
+  body {
+    margin: 0; padding: 28px 20px 48px; background: #0e1621; color: #e9eef7;
+    font: 16px/1.55 -apple-system, system-ui, Roboto, sans-serif;
+    max-width: 560px; margin-inline: auto;
+  }
+  h1 { font-size: 26px; margin: 0 0 6px; }
+  .v { color: #8fa0b8; font-size: 13px; margin-bottom: 22px; }
+  a.bouton {
+    display: block; background: #2f6fed; color: #fff; text-decoration: none;
+    text-align: center; font-weight: 700; font-size: 17px;
+    padding: 18px; border-radius: 16px; margin: 20px 0;
+  }
+  .carte {
+    background: #16202e; border: 1px solid #26334a; border-radius: 16px;
+    padding: 16px 18px; margin: 16px 0;
+  }
+  h2 { font-size: 15px; margin: 0 0 8px; }
+  ol { margin: 0; padding-left: 20px; }
+  li { margin-bottom: 8px; }
+  .dim { color: #8fa0b8; font-size: 14px; }
+</style>
+</head>
+<body>
+
+<h1>Famille</h1>
+<p class="v">Version <strong id="v">…</strong> · Android</p>
+
+<a class="bouton" id="lien" href="#">Télécharger l'application</a>
+
+<div class="carte">
+  <h2>Si Android refuse</h2>
+  <ol>
+    <li>Au téléchargement : « Ce type de fichier peut endommager… » → <strong>Télécharger quand même</strong>.</li>
+    <li>À l'ouverture : « Autorisations bloquées » → <strong>Paramètres</strong>, puis active
+      « Autoriser cette source ». C'est une seule fois.</li>
+  </ol>
+</div>
+
+<div class="carte">
+  <h2>Après l'installation</h2>
+  <ol>
+    <li>Ouvre <strong>Famille</strong>, choisis <strong>« J'ai reçu un code »</strong>.</li>
+    <li>Tape les 6 chiffres donnés par ton parent.</li>
+    <li>Touche <strong>« Activer le partage »</strong> et va jusqu'aux trois points verts.
+      Le plus important : la position sur <strong>« Toujours autoriser »</strong>.</li>
+  </ol>
+  <p class="dim">
+    L'app est visible, jamais cachée : une icône, une notification permanente, et un écran
+    qui dit exactement qui te voit et ce qu'il voit. Elle ne lit ni les messages, ni les
+    photos, ni ce que tu fais sur le téléphone.
+  </p>
+</div>
+
+<div class="carte">
+  <h2>Les mises à jour</h2>
+  <p class="dim" style="margin:0">
+    Une seule fois par le lien. Ensuite, dans l'app : onglet <strong>Réglages</strong> →
+    « Vérifier les mises à jour ».
+  </p>
+</div>
+
+<script>
+fetch('famille-version.json?t=' + Date.now())
+  .then(function (r) { return r.json(); })
+  .then(function (d) {
+    document.getElementById('v').textContent = d.versionName;
+    document.getElementById('lien').href = d.url;
+  })
+  .catch(function () {
+    document.getElementById('v').textContent = '—';
+  });
+</script>
+
+</body>
+</html>
