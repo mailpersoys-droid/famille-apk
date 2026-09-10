@@ -1,6 +1,6 @@
 {
-  "versionCode": 8,
-  "versionName": "1.2.0",
-  "url": "https://github.com/mailpersoys-droid/famille-apk/releases/download/v1.2.0/Famille-1.2.0.apk",
-  "notes": "Nouveau look clair : fond clair, cartes blanches, bandeau colore en haut qui dit d'un coup d'oeil si tout va bien."
+  "versionCode": 9,
+  "versionName": "1.3.0",
+  "url": "https://github.com/mailpersoys-droid/famille-apk/releases/download/v1.3.0/Famille-1.3.0.apk",
+  "notes": "Nouveau design : les couleurs viennent du logo de l'app, la mise en page suit les regles d'Apple."
 }
