@@ -1,6 +1,6 @@
 {
-  "versionCode": 10,
-  "versionName": "1.3.1",
-  "url": "https://github.com/mailpersoys-droid/famille-apk/releases/download/v1.3.1/Famille-1.3.1.apk",
-  "notes": "Onglets qui ne passent plus sous les boutons du téléphone, SOS qui sonne vraiment, fiche complète en touchant un enfant, photos avec un crayon visible, liste numérotée des réglages côté enfant, et tout l'affichage adapté à chaque taille d'écran."
+  "versionCode": 11,
+  "versionName": "1.3.2",
+  "url": "https://github.com/mailpersoys-droid/famille-apk/releases/download/v1.3.2/Famille-1.3.2.apk",
+  "notes": "Bouton pour envoyer l'app par WhatsApp (liens Android + iPhone), et le code d'un enfant s'envoie avec les liens. Le SOS part maintenant même sans GPS. L'app ne renvoie plus vers « créer une famille » quand le réseau est coupé. Le partage démarre tout seul au retour des réglages."
 }
