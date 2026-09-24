@@ -1,6 +1,6 @@
 {
-  "versionCode": 11,
-  "versionName": "1.3.2",
-  "url": "https://github.com/mailpersoys-droid/famille-apk/releases/download/v1.3.2/Famille-1.3.2.apk",
-  "notes": "Bouton pour envoyer l'app par WhatsApp (liens Android + iPhone), et le code d'un enfant s'envoie avec les liens. Le SOS part maintenant même sans GPS. L'app ne renvoie plus vers « créer une famille » quand le réseau est coupé. Le partage démarre tout seul au retour des réglages."
+  "versionCode": 12,
+  "versionName": "1.3.3",
+  "url": "https://github.com/mailpersoys-droid/famille-apk/releases/download/v1.3.3/Famille-1.3.3.apk",
+  "notes": "Dans la fiche d'un enfant : « Renvoyer un code » (s'il a réinstallé l'app ou changé de téléphone — il retrouve sa photo et son historique) et « Retirer de la famille ». Une alerte « injoignable » ne déclenche plus la sirène du SOS."
 }
