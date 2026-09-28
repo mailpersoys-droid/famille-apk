@@ -1,6 +1,6 @@
 {
-  "versionCode": 14,
-  "versionName": "1.3.5",
-  "url": "https://github.com/mailpersoys-droid/famille-apk/releases/download/v1.3.5/Famille-1.3.5.apk",
-  "notes": "notifications push (Android)"
+  "versionCode": 15,
+  "versionName": "1.3.6",
+  "url": "https://github.com/mailpersoys-droid/famille-apk/releases/download/v1.3.6/Famille-1.3.6.apk",
+  "notes": "Les alertes sonnent enfin, l'app dit pourquoi un enfant est injoignable, et la pause demande le code parental."
 }
