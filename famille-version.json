@@ -1,6 +1,6 @@
 {
-  "versionCode": 16,
-  "versionName": "1.3.7",
-  "url": "https://github.com/mailpersoys-droid/famille-apk/releases/download/v1.3.7/Famille-1.3.7.apk",
-  "notes": "Écran enfant simplifié : SOS + carte, partages réglés par les parents"
+  "versionCode": 17,
+  "versionName": "1.3.8",
+  "url": "https://github.com/mailpersoys-droid/famille-apk/releases/download/v1.3.8/Famille-1.3.8.apk",
+  "notes": "Moins de fausses alertes « injoignable » : la sonde envoie une position fraîche"
 }
