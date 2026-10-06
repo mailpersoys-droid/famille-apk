@@ -1,6 +1,6 @@
 {
-  "versionCode": 18,
-  "versionName": "1.3.9",
-  "url": "https://github.com/mailpersoys-droid/famille-apk/releases/download/v1.3.9/Famille-1.3.9.apk",
-  "notes": "Faire sonner : vraie sonnerie sur iPhone, plus de vieilles sonneries rejouées ; batterie faible sans doublon"
+  "versionCode": 19,
+  "versionName": "1.3.10",
+  "url": "https://github.com/mailpersoys-droid/famille-apk/releases/download/v1.3.10/Famille-1.3.10.apk",
+  "notes": "Pause : le partage reprend tout seul après 1 h ; « Tu es où ? » passe le mode Concentration"
 }
