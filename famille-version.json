@@ -1,6 +1,6 @@
 {
-  "versionCode": 21,
-  "versionName": "1.3.12",
-  "url": "https://github.com/mailpersoys-droid/famille-apk/releases/download/v1.3.12/Famille-1.3.12.apk",
-  "notes": "SOS : part toujours, même sans GPS ni réseau (renvoi automatique), et l'app affiche l'état réel de l'envoi"
+  "versionCode": 22,
+  "versionName": "1.3.13",
+  "url": "https://github.com/mailpersoys-droid/famille-apk/releases/download/v1.3.13/Famille-1.3.13.apk",
+  "notes": "Chaque autorisation est expliquée avant d'être demandée"
 }
