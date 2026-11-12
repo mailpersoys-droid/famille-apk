@@ -1,6 +1,6 @@
 {
-  "versionCode": 22,
-  "versionName": "1.3.13",
-  "url": "https://github.com/mailpersoys-droid/famille-apk/releases/download/v1.3.13/Famille-1.3.13.apk",
-  "notes": "Chaque autorisation est expliquée avant d'être demandée"
+  "versionCode": 23,
+  "versionName": "1.3.14",
+  "url": "https://github.com/mailpersoys-droid/famille-apk/releases/download/v1.3.14/Famille-1.3.14.apk",
+  "notes": "Suivi iPhone a l'arret : une position au moins toutes les 10 min ; le parent sait si l'app a ete balayee ou si le mode economie est actif"
 }
